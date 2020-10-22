@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER cdac2 <ash.shelar29595@gmail.com> 
+MAINTAINER ASHISH <ash.shelar29595@gmail.com> 
 
 RUN apt-get update
 RUN apt-get install -y  nginx
