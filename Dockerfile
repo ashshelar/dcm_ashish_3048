@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER ASHISH <ash.shelar29595@gmail.com> 
 
 RUN apt-get update
-RUN apt-get install -y  nginx
+RUN apt-get -y install nginx
 ADD index.html  /var/www/html/index.html
 
 EXPOSE 80
